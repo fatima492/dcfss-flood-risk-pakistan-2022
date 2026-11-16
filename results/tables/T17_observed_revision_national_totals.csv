@@ -1,8 +1,0 @@
-indicator,attribute,snapshot_18Sep2022,final_18Nov2022,relative_revision
-deaths,e1,1545,1739.0,0.125566
-injured,e2,12860,12867.0,0.000544
-roads_km,e3,12735,13115.0,0.029839
-bridges,e4,375,439.0,0.170667
-houses,e5,1943978,2288481.0,0.177215
-livestock,e6,943909,1164270.0,0.233456
-affected_population,e7,33046329,,

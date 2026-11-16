@@ -1,4 +1,0 @@
-stage,WED_equals_WHD,WHHD_equals_WHD,dplus_only_equals_SSI_WED,dplus_only_equals_SSI_WHD,dplus_only_equals_SSI_WHHD,WHD_dplus_plus_dminus_equals_1
-T1,True,True,True,True,True,True
-T2,False,True,False,True,True,True
-T3,True,True,True,True,True,True
