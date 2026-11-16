@@ -1,0 +1,28 @@
+stage,rule,AJ&K,Balochistan,GB,ICT,KP,Punjab,Sindh,spearman_vs_primary
+T1,WED / SSI,5,4,6,7,3,2,1,1.0
+T1,WED / d+ only,5,4,6,7,3,2,1,1.0
+T1,WED / d- only,5,4,6,7,3,2,1,1.0
+T1,WHD / SSI,5,4,6,7,3,2,1,1.0
+T1,WHD / d+ only,5,4,6,7,3,2,1,1.0
+T1,WHD / d- only,5,4,6,7,3,2,1,1.0
+T1,WHHD / SSI,5,4,6,7,3,2,1,1.0
+T1,WHHD / d+ only,5,4,6,7,3,2,1,1.0
+T1,WHHD / d- only,5,4,6,7,3,2,1,1.0
+T2,WED / SSI,6,5,4,7,3,2,1,0.964286
+T2,WED / d+ only,6,4,5,7,3,2,1,1.0
+T2,WED / d- only,6,5,4,7,3,2,1,0.964286
+T2,WHD / SSI,6,4,5,7,3,2,1,1.0
+T2,WHD / d+ only,6,4,5,7,3,2,1,1.0
+T2,WHD / d- only,6,4,5,7,3,2,1,1.0
+T2,WHHD / SSI,6,4,5,7,3,2,1,1.0
+T2,WHHD / d+ only,6,4,5,7,3,2,1,1.0
+T2,WHHD / d- only,6,4,5,7,3,2,1,1.0
+T3,WED / SSI,5,2,6,7,4,3,1,1.0
+T3,WED / d+ only,5,2,6,7,4,3,1,1.0
+T3,WED / d- only,5,2,6,7,4,3,1,1.0
+T3,WHD / SSI,5,2,6,7,4,3,1,1.0
+T3,WHD / d+ only,5,2,6,7,4,3,1,1.0
+T3,WHD / d- only,5,2,6,7,4,3,1,1.0
+T3,WHHD / SSI,5,2,6,7,4,3,1,1.0
+T3,WHHD / d+ only,5,2,6,7,4,3,1,1.0
+T3,WHHD / d- only,5,2,6,7,4,3,1,1.0

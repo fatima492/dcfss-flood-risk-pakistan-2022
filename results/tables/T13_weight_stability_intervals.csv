@@ -1,0 +1,10 @@
+stage,attribute,baseline_stage_weight,factor_low,factor_high,stage_weight_low,stage_weight_high,open_low,open_high
+T1,e1,0.625,0.01,1.46,0.016393,0.708738,True,False
+T1,e2,0.375,0.69,20.0,0.292786,0.923077,False,True
+T2,e2,0.333333,0.61,20.0,0.233716,0.909091,False,True
+T2,e3,0.222222,0.2,4.0,0.054054,0.533333,False,False
+T2,e4,0.111111,0.01,1.88,0.001248,0.190283,True,False
+T2,e5,0.333333,0.01,12.38,0.004975,0.860918,True,False
+T3,e5,0.333333,0.01,3.24,0.004975,0.618321,True,False
+T3,e6,0.222222,0.18,3.86,0.048913,0.524457,False,False
+T3,e7,0.444444,0.01,20.0,0.007937,0.941176,True,True

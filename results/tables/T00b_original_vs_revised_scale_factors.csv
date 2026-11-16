@@ -1,0 +1,10 @@
+stage,distance,stage_weight_sum,theoretical_factor,ranking_identical
+T1,WED,0.4,4.1833,True
+T1,WHD,0.4,17.5,True
+T1,WHHD,0.4,52.5,True
+T2,WED,0.44999999999999996,3.9441,True
+T2,WHD,0.44999999999999996,15.5556,True
+T2,WHHD,0.44999999999999996,46.6667,True
+T3,WED,0.45,3.9441,True
+T3,WHD,0.45,15.5556,True
+T3,WHHD,0.45,46.6667,True

@@ -1,0 +1,23 @@
+variant,stage,active,AJ&K,Balochistan,GB,ICT,KP,Punjab,Sindh,spearman,kendall,n_changed,top1_same,top3_same,order
+Baseline,T1,"e1,e2",5,4,6,7,3,2,1,1.0,1.0,0,True,True,Sindh > Punjab > KP > Balochistan > AJ&K > GB > ICT
+Baseline,T2,"e2,e3,e4,e5",6,4,5,7,3,2,1,1.0,1.0,0,True,True,Sindh > Punjab > KP > Balochistan > GB > AJ&K > ICT
+Baseline,T3,"e5,e6,e7",5,2,6,7,4,3,1,1.0,1.0,0,True,True,Sindh > Balochistan > Punjab > KP > AJ&K > GB > ICT
+T1 without e1,T1,e2,5,4,6,7,3,2,1,1.0,1.0,0,True,True,Sindh > Punjab > KP > Balochistan > AJ&K > GB > ICT
+T1 without e2,T1,e1,5,3,6,7,2,4,1,0.892857,0.809524,3,True,False,Sindh > KP > Balochistan > Punjab > AJ&K > GB > ICT
+T2 without e2,T2,"e3,e4,e5",6,3,5,7,2,4,1,0.892857,0.809524,3,True,False,Sindh > KP > Balochistan > Punjab > GB > AJ&K > ICT
+T2 without e3,T2,"e2,e4,e5",6,5,4,7,3,2,1,0.964286,0.904762,2,True,True,Sindh > Punjab > KP > GB > Balochistan > AJ&K > ICT
+T2 without e4,T2,"e2,e3,e5",5,4,6,7,3,2,1,0.964286,0.904762,2,True,True,Sindh > Punjab > KP > Balochistan > AJ&K > GB > ICT
+T2 without e5,T2,"e2,e3,e4",6,4,5,7,3,2,1,1.0,1.0,0,True,True,Sindh > Punjab > KP > Balochistan > GB > AJ&K > ICT
+T3 without e5,T3,"e6,e7",5,2,6,7,4,3,1,1.0,1.0,0,True,True,Sindh > Balochistan > Punjab > KP > AJ&K > GB > ICT
+T3 without e6,T3,"e5,e7",6,2,5,7,4,3,1,0.964286,0.904762,2,True,True,Sindh > Balochistan > Punjab > KP > GB > AJ&K > ICT
+T3 without e7,T3,"e5,e6",5,2,6,7,4,3,1,1.0,1.0,0,True,True,Sindh > Balochistan > Punjab > KP > AJ&K > GB > ICT
+e2 only in T1 (removed from T2),T2,"e3,e4,e5",6,3,5,7,2,4,1,0.892857,0.809524,3,True,False,Sindh > KP > Balochistan > Punjab > GB > AJ&K > ICT
+e2 only in T2 (removed from T1),T1,e1,5,3,6,7,2,4,1,0.892857,0.809524,3,True,False,Sindh > KP > Balochistan > Punjab > AJ&K > GB > ICT
+e5 only in T2 (removed from T3),T3,"e6,e7",5,2,6,7,4,3,1,1.0,1.0,0,True,True,Sindh > Balochistan > Punjab > KP > AJ&K > GB > ICT
+e5 only in T3 (removed from T2),T2,"e2,e3,e4",6,4,5,7,3,2,1,1.0,1.0,0,True,True,Sindh > Punjab > KP > Balochistan > GB > AJ&K > ICT
+e7 added to T1,T1,"e1,e2,e7",5,2,6,7,4,3,1,0.892857,0.809524,3,True,False,Sindh > Balochistan > Punjab > KP > AJ&K > GB > ICT
+e7 added to T2,T2,"e2,e3,e4,e5,e7",6,2,5,7,4,3,1,0.892857,0.809524,3,True,False,Sindh > Balochistan > Punjab > KP > GB > AJ&K > ICT
+"e3,e4 added to T3",T3,"e3,e4,e5,e6,e7",6,2,5,7,4,3,1,0.964286,0.904762,2,True,True,Sindh > Balochistan > Punjab > KP > GB > AJ&K > ICT
+Disjoint stages,T1,"e1,e2",5,4,6,7,3,2,1,1.0,1.0,0,True,True,Sindh > Punjab > KP > Balochistan > AJ&K > GB > ICT
+Disjoint stages,T2,"e3,e4",6,3,4,6,2,5,1,0.774806,0.68313,5,True,False,Sindh > KP > Balochistan > GB > Punjab > AJ&K > ICT
+Disjoint stages,T3,"e5,e6,e7",5,2,6,7,4,3,1,1.0,1.0,0,True,True,Sindh > Balochistan > Punjab > KP > AJ&K > GB > ICT
