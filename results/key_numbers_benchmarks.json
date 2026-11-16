@@ -1,0 +1,71 @@
+{
+  "vikor_conditions": {
+    "T1": {
+      "C1": true,
+      "C2": true,
+      "DQ": 0.16666666666666666
+    },
+    "T2": {
+      "C1": true,
+      "C2": true,
+      "DQ": 0.16666666666666666
+    },
+    "T3": {
+      "C1": true,
+      "C2": true,
+      "DQ": 0.16666666666666666
+    },
+    "ALL": {
+      "C1": true,
+      "C2": true,
+      "DQ": 0.16666666666666666
+    }
+  },
+  "kendall_w_methods": {
+    "T1": 0.9587053571428571,
+    "T2": 0.9866071428571429,
+    "T3": 1.0,
+    "ALL": 0.9787946428571429
+  },
+  "static_vs_stage_spearman": {
+    "T1": 0.8571428571428573,
+    "T2": 0.8928571428571429,
+    "T3": 0.9642857142857145
+  },
+  "regions_whose_rank_differs_from_static": {
+    "T1": [
+      "AJ&K",
+      "Balochistan",
+      "GB",
+      "KP",
+      "Punjab"
+    ],
+    "T2": [
+      "Balochistan",
+      "KP",
+      "Punjab"
+    ],
+    "T3": [
+      "AJ&K",
+      "GB"
+    ]
+  },
+  "distinct_levels": {
+    "DCFSS": {
+      "T1": 7,
+      "T2": 7,
+      "T3": 7
+    },
+    "crisp_DSS_thr0.5": {
+      "T1": 2,
+      "T2": 3,
+      "T3": 3
+    }
+  },
+  "crossover_Punjab_Balochistan_t": [
+    1.3127495564693765
+  ],
+  "crossover_KP_Balochistan_t": [
+    1.151985483232192
+  ]
+}

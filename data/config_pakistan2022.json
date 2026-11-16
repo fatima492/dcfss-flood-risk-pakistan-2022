@@ -1,0 +1,27 @@
+{
+  "name": "Pakistan floods 2022 (NDMA cumulative snapshot, 18 September 2022)",
+  "data_file": "ndma_pakistan_floods_2022_snapshot.csv",
+  "id_column": "region",
+  "attributes": {
+    "e1": {"column": "deaths",              "label": "Total deaths",          "type": "loss", "weight": 0.25},
+    "e2": {"column": "injured",             "label": "Total injured",         "type": "loss", "weight": 0.15},
+    "e3": {"column": "roads_km",            "label": "Roads damaged (km)",    "type": "loss", "weight": 0.10},
+    "e4": {"column": "bridges",             "label": "Bridges damaged",       "type": "loss", "weight": 0.05},
+    "e5": {"column": "houses",              "label": "Houses damaged",        "type": "loss", "weight": 0.15},
+    "e6": {"column": "livestock",           "label": "Livestock lost",        "type": "loss", "weight": 0.10},
+    "e7": {"column": "affected_population", "label": "Affected population",   "type": "loss", "weight": 0.20}
+  },
+  "stages": {
+    "T1": {"label": "Impact",   "active": ["e1", "e2"]},
+    "T2": {"label": "Relief",   "active": ["e2", "e3", "e4", "e5"]},
+    "T3": {"label": "Recovery", "active": ["e5", "e6", "e7"]}
+  },
+  "tolerance": 0.10,
+  "normalisation": "minmax",
+  "stage_emphasis_profiles": {
+    "Early response": [0.6, 0.3, 0.1],
+    "Balanced":       [0.3333333333, 0.3333333333, 0.3333333334],
+    "Transition":     [0.2, 0.5, 0.3],
+    "Late recovery":  [0.1, 0.2, 0.7]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "table": [
+    {
+      "alternatives_n": 7,
+      "attributes_m": 7,
+      "stages_T": 3,
+      "active_per_stage": 2,
+      "cell_evaluations": 42,
+      "runtime_seconds": 0.004318,
+      "microseconds_per_cell": 102.819043
+    },
+    {
+      "alternatives_n": 100,
+      "attributes_m": 10,
+      "stages_T": 3,
+      "active_per_stage": 3,
+      "cell_evaluations": 900,
+      "runtime_seconds": 0.004789,
+      "microseconds_per_cell": 5.321556
+    },
+    {
+      "alternatives_n": 1000,
+      "attributes_m": 20,
+      "stages_T": 6,
+      "active_per_stage": 6,
+      "cell_evaluations": 36000,
+      "runtime_seconds": 0.017941,
+      "microseconds_per_cell": 0.498367
+    },
+    {
+      "alternatives_n": 10000,
+      "attributes_m": 20,
+      "stages_T": 12,
+      "active_per_stage": 6,
+      "cell_evaluations": 720000,
+      "runtime_seconds": 0.259404,
+      "microseconds_per_cell": 0.360283
+    },
+    {
+      "alternatives_n": 100000,
+      "attributes_m": 50,
+      "stages_T": 12,
+      "active_per_stage": 16,
+      "cell_evaluations": 19200000,
+      "runtime_seconds": 5.876516,
+      "microseconds_per_cell": 0.306069
+    },
+    {
+      "alternatives_n": 1000000,
+      "attributes_m": 50,
+      "stages_T": 12,
+      "active_per_stage": 16,
+      "cell_evaluations": 192000000,
+      "runtime_seconds": 103.75143,
+      "microseconds_per_cell": 0.540372
+    }
+  ],
+  "environment": {
+    "python": "3.14.0",
+    "numpy": "2.3.5",
+    "machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 78 Stepping 3, GenuineIntel",
+    "note": "single core, best of repeated runs"
+  }
+}

@@ -1,0 +1,422 @@
+{
+  "seed": 20221118,
+  "n_mc": 10000,
+  "revision": {
+    "per_indicator": {
+      "e1": 0.1256,
+      "e2": 0.0005,
+      "e3": 0.0298,
+      "e4": 0.1707,
+      "e5": 0.1772,
+      "e6": 0.2335
+    },
+    "mean": 0.12288126830688197,
+    "median": 0.14811650485436895,
+    "min": 0.0005443234836702955,
+    "max": 0.23345576745215904
+  },
+  "heterogeneous_delta": {
+    "e1": 0.1255663430420712,
+    "e2": 0.02,
+    "e3": 0.0298390263054574,
+    "e4": 0.17066666666666666,
+    "e5": 0.1772154828912673,
+    "e6": 0.23345576745215904,
+    "e7": 0.1
+  },
+  "kendall_w_distance_reference": {
+    "T1": 1.0,
+    "T2": 0.9876543209876543,
+    "T3": 1.0
+  },
+  "weights": {
+    "Author-assigned (baseline)": [
+      0.25,
+      0.15,
+      0.1,
+      0.05,
+      0.15,
+      0.1,
+      0.2
+    ],
+    "Equal": [
+      0.1429,
+      0.1429,
+      0.1429,
+      0.1429,
+      0.1429,
+      0.1429,
+      0.1429
+    ],
+    "Entropy": [
+      0.0834,
+      0.1833,
+      0.152,
+      0.1009,
+      0.2359,
+      0.1375,
+      0.107
+    ],
+    "CRITIC": [
+      0.0815,
+      0.136,
+      0.0826,
+      0.1794,
+      0.1109,
+      0.3154,
+      0.0942
+    ],
+    "ROC (baseline order)": [
+      0.3704,
+      0.1323,
+      0.0585,
+      0.0204,
+      0.1323,
+      0.0585,
+      0.2276
+    ],
+    "Hybrid (baseline+entropy)": [
+      0.1667,
+      0.1666,
+      0.126,
+      0.0754,
+      0.193,
+      0.1188,
+      0.1535
+    ]
+  },
+  "mc_weights": [
+    {
+      "scenario": "local +-10%",
+      "stage": "T1",
+      "P_full_order_unchanged": 1.0,
+      "P_top1_unchanged": 1.0,
+      "P_top3_set_unchanged": 1.0,
+      "mean_spearman": 1.0,
+      "min_spearman": 1.0,
+      "p05_spearman": 1.0
+    },
+    {
+      "scenario": "local +-10%",
+      "stage": "T2",
+      "P_full_order_unchanged": 1.0,
+      "P_top1_unchanged": 1.0,
+      "P_top3_set_unchanged": 1.0,
+      "mean_spearman": 1.0,
+      "min_spearman": 1.0,
+      "p05_spearman": 1.0
+    },
+    {
+      "scenario": "local +-10%",
+      "stage": "T3",
+      "P_full_order_unchanged": 1.0,
+      "P_top1_unchanged": 1.0,
+      "P_top3_set_unchanged": 1.0,
+      "mean_spearman": 1.0,
+      "min_spearman": 1.0,
+      "p05_spearman": 1.0
+    },
+    {
+      "scenario": "local +-20%",
+      "stage": "T1",
+      "P_full_order_unchanged": 0.9982,
+      "P_top1_unchanged": 1.0,
+      "P_top3_set_unchanged": 1.0,
+      "mean_spearman": 0.9999,
+      "min_spearman": 0.9643,
+      "p05_spearman": 1.0
+    },
+    {
+      "scenario": "local +-20%",
+      "stage": "T2",
+      "P_full_order_unchanged": 1.0,
+      "P_top1_unchanged": 1.0,
+      "P_top3_set_unchanged": 1.0,
+      "mean_spearman": 1.0,
+      "min_spearman": 1.0,
+      "p05_spearman": 1.0
+    },
+    {
+      "scenario": "local +-20%",
+      "stage": "T3",
+      "P_full_order_unchanged": 1.0,
+      "P_top1_unchanged": 1.0,
+      "P_top3_set_unchanged": 1.0,
+      "mean_spearman": 1.0,
+      "min_spearman": 1.0,
+      "p05_spearman": 1.0
+    },
+    {
+      "scenario": "local +-30%",
+      "stage": "T1",
+      "P_full_order_unchanged": 0.9306,
+      "P_top1_unchanged": 1.0,
+      "P_top3_set_unchanged": 0.9822,
+      "mean_spearman": 0.9962,
+      "min_spearman": 0.8929,
+      "p05_spearman": 0.9643
+    },
+    {
+      "scenario": "local +-30%",
+      "stage": "T2",
+      "P_full_order_unchanged": 0.9925,
+      "P_top1_unchanged": 1.0,
+      "P_top3_set_unchanged": 1.0,
+      "mean_spearman": 0.9997,
+      "min_spearman": 0.9643,
+      "p05_spearman": 1.0
+    },
+    {
+      "scenario": "local +-30%",
+      "stage": "T3",
+      "P_full_order_unchanged": 1.0,
+      "P_top1_unchanged": 1.0,
+      "P_top3_set_unchanged": 1.0,
+      "mean_spearman": 1.0,
+      "min_spearman": 1.0,
+      "p05_spearman": 1.0
+    },
+    {
+      "scenario": "local +-50%",
+      "stage": "T1",
+      "P_full_order_unchanged": 0.7955,
+      "P_top1_unchanged": 1.0,
+      "P_top3_set_unchanged": 0.8561,
+      "mean_spearman": 0.9824,
+      "min_spearman": 0.8929,
+      "p05_spearman": 0.8929
+    },
+    {
+      "scenario": "local +-50%",
+      "stage": "T2",
+      "P_full_order_unchanged": 0.8737,
+      "P_top1_unchanged": 1.0,
+      "P_top3_set_unchanged": 1.0,
+      "mean_spearman": 0.9955,
+      "min_spearman": 0.9286,
+      "p05_spearman": 0.9643
+    },
+    {
+      "scenario": "local +-50%",
+      "stage": "T3",
+      "P_full_order_unchanged": 1.0,
+      "P_top1_unchanged": 1.0,
+      "P_top3_set_unchanged": 1.0,
+      "mean_spearman": 1.0,
+      "min_spearman": 1.0,
+      "p05_spearman": 1.0
+    },
+    {
+      "scenario": "global (uniform simplex)",
+      "stage": "T1",
+      "P_full_order_unchanged": 0.7076,
+      "P_top1_unchanged": 1.0,
+      "P_top3_set_unchanged": 0.7305,
+      "mean_spearman": 0.9703,
+      "min_spearman": 0.8929,
+      "p05_spearman": 0.8929
+    },
+    {
+      "scenario": "global (uniform simplex)",
+      "stage": "T2",
+      "P_full_order_unchanged": 0.2676,
+      "P_top1_unchanged": 1.0,
+      "P_top3_set_unchanged": 0.5982,
+      "mean_spearman": 0.9133,
+      "min_spearman": 0.75,
+      "p05_spearman": 0.75
+    },
+    {
+      "scenario": "global (uniform simplex)",
+      "stage": "T3",
+      "P_full_order_unchanged": 0.6307,
+      "P_top1_unchanged": 0.7771,
+      "P_top3_set_unchanged": 0.9891,
+      "mean_spearman": 0.9864,
+      "min_spearman": 0.8571,
+      "p05_spearman": 0.9643
+    }
+  ],
+  "mc_data": [
+    {
+      "delta": 0.05,
+      "stage": "T1",
+      "P_full_order_unchanged": 0.885,
+      "P_top1_unchanged": 1.0,
+      "mean_spearman": 0.9959,
+      "min_spearman": 0.9643,
+      "P_keeps_rank_AJ&K": 1.0,
+      "P_keeps_rank_Balochistan": 0.885,
+      "P_keeps_rank_GB": 1.0,
+      "P_keeps_rank_ICT": 1.0,
+      "P_keeps_rank_KP": 0.885,
+      "P_keeps_rank_Punjab": 1.0,
+      "P_keeps_rank_Sindh": 1.0
+    },
+    {
+      "delta": 0.05,
+      "stage": "T2",
+      "P_full_order_unchanged": 1.0,
+      "P_top1_unchanged": 1.0,
+      "mean_spearman": 1.0,
+      "min_spearman": 1.0,
+      "P_keeps_rank_AJ&K": 1.0,
+      "P_keeps_rank_Balochistan": 1.0,
+      "P_keeps_rank_GB": 1.0,
+      "P_keeps_rank_ICT": 1.0,
+      "P_keeps_rank_KP": 1.0,
+      "P_keeps_rank_Punjab": 1.0,
+      "P_keeps_rank_Sindh": 1.0
+    },
+    {
+      "delta": 0.05,
+      "stage": "T3",
+      "P_full_order_unchanged": 1.0,
+      "P_top1_unchanged": 1.0,
+      "mean_spearman": 1.0,
+      "min_spearman": 1.0,
+      "P_keeps_rank_AJ&K": 1.0,
+      "P_keeps_rank_Balochistan": 1.0,
+      "P_keeps_rank_GB": 1.0,
+      "P_keeps_rank_ICT": 1.0,
+      "P_keeps_rank_KP": 1.0,
+      "P_keeps_rank_Punjab": 1.0,
+      "P_keeps_rank_Sindh": 1.0
+    },
+    {
+      "delta": 0.1,
+      "stage": "T1",
+      "P_full_order_unchanged": 0.7066,
+      "P_top1_unchanged": 1.0,
+      "mean_spearman": 0.9894,
+      "min_spearman": 0.8571,
+      "P_keeps_rank_AJ&K": 1.0,
+      "P_keeps_rank_Balochistan": 0.7278,
+      "P_keeps_rank_GB": 1.0,
+      "P_keeps_rank_ICT": 1.0,
+      "P_keeps_rank_KP": 0.7067,
+      "P_keeps_rank_Punjab": 0.9766,
+      "P_keeps_rank_Sindh": 1.0
+    },
+    {
+      "delta": 0.1,
+      "stage": "T2",
+      "P_full_order_unchanged": 1.0,
+      "P_top1_unchanged": 1.0,
+      "mean_spearman": 1.0,
+      "min_spearman": 1.0,
+      "P_keeps_rank_AJ&K": 1.0,
+      "P_keeps_rank_Balochistan": 1.0,
+      "P_keeps_rank_GB": 1.0,
+      "P_keeps_rank_ICT": 1.0,
+      "P_keeps_rank_KP": 1.0,
+      "P_keeps_rank_Punjab": 1.0,
+      "P_keeps_rank_Sindh": 1.0
+    },
+    {
+      "delta": 0.1,
+      "stage": "T3",
+      "P_full_order_unchanged": 0.9898,
+      "P_top1_unchanged": 1.0,
+      "mean_spearman": 0.9996,
+      "min_spearman": 0.9643,
+      "P_keeps_rank_AJ&K": 0.9898,
+      "P_keeps_rank_Balochistan": 1.0,
+      "P_keeps_rank_GB": 0.9898,
+      "P_keeps_rank_ICT": 1.0,
+      "P_keeps_rank_KP": 1.0,
+      "P_keeps_rank_Punjab": 1.0,
+      "P_keeps_rank_Sindh": 1.0
+    },
+    {
+      "delta": 0.2,
+      "stage": "T1",
+      "P_full_order_unchanged": 0.4921,
+      "P_top1_unchanged": 1.0,
+      "mean_spearman": 0.9743,
+      "min_spearman": 0.8571,
+      "P_keeps_rank_AJ&K": 1.0,
+      "P_keeps_rank_Balochistan": 0.6049,
+      "P_keeps_rank_GB": 1.0,
+      "P_keeps_rank_ICT": 1.0,
+      "P_keeps_rank_KP": 0.5094,
+      "P_keeps_rank_Punjab": 0.7898,
+      "P_keeps_rank_Sindh": 1.0
+    },
+    {
+      "delta": 0.2,
+      "stage": "T2",
+      "P_full_order_unchanged": 0.9876,
+      "P_top1_unchanged": 1.0,
+      "mean_spearman": 0.9996,
+      "min_spearman": 0.9643,
+      "P_keeps_rank_AJ&K": 1.0,
+      "P_keeps_rank_Balochistan": 1.0,
+      "P_keeps_rank_GB": 1.0,
+      "P_keeps_rank_ICT": 1.0,
+      "P_keeps_rank_KP": 0.9876,
+      "P_keeps_rank_Punjab": 0.9876,
+      "P_keeps_rank_Sindh": 1.0
+    },
+    {
+      "delta": 0.2,
+      "stage": "T3",
+      "P_full_order_unchanged": 0.8384,
+      "P_top1_unchanged": 1.0,
+      "mean_spearman": 0.9942,
+      "min_spearman": 0.9643,
+      "P_keeps_rank_AJ&K": 0.8384,
+      "P_keeps_rank_Balochistan": 1.0,
+      "P_keeps_rank_GB": 0.8384,
+      "P_keeps_rank_ICT": 1.0,
+      "P_keeps_rank_KP": 1.0,
+      "P_keeps_rank_Punjab": 1.0,
+      "P_keeps_rank_Sindh": 1.0
+    },
+    {
+      "delta": 0.3,
+      "stage": "T1",
+      "P_full_order_unchanged": 0.3743,
+      "P_top1_unchanged": 1.0,
+      "mean_spearman": 0.9625,
+      "min_spearman": 0.8571,
+      "P_keeps_rank_AJ&K": 1.0,
+      "P_keeps_rank_Balochistan": 0.5224,
+      "P_keeps_rank_GB": 1.0,
+      "P_keeps_rank_ICT": 1.0,
+      "P_keeps_rank_KP": 0.4148,
+      "P_keeps_rank_Punjab": 0.6602,
+      "P_keeps_rank_Sindh": 1.0
+    },
+    {
+      "delta": 0.3,
+      "stage": "T2",
+      "P_full_order_unchanged": 0.9248,
+      "P_top1_unchanged": 1.0,
+      "mean_spearman": 0.9973,
+      "min_spearman": 0.9286,
+      "P_keeps_rank_AJ&K": 1.0,
+      "P_keeps_rank_Balochistan": 0.9956,
+      "P_keeps_rank_GB": 0.9957,
+      "P_keeps_rank_ICT": 1.0,
+      "P_keeps_rank_KP": 0.9289,
+      "P_keeps_rank_Punjab": 0.929,
+      "P_keeps_rank_Sindh": 1.0
+    },
+    {
+      "delta": 0.3,
+      "stage": "T3",
+      "P_full_order_unchanged": 0.7533,
+      "P_top1_unchanged": 1.0,
+      "mean_spearman": 0.9911,
+      "min_spearman": 0.9286,
+      "P_keeps_rank_AJ&K": 0.7589,
+      "P_keeps_rank_Balochistan": 1.0,
+      "P_keeps_rank_GB": 0.7589,
+      "P_keeps_rank_ICT": 1.0,
+      "P_keeps_rank_KP": 0.9921,
+      "P_keeps_rank_Punjab": 0.9921,
+      "P_keeps_rank_Sindh": 1.0
+    }
+  ]
+}

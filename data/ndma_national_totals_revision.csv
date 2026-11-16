@@ -1,0 +1,8 @@
+indicator,attribute,snapshot_18Sep2022,final_18Nov2022,source_snapshot,source_final
+deaths,e1,1545,1739,"NDMA daily situation report of 18 Sep 2022 (sum of regional values in the case-study dataset)","NDMA Monsoon 2022 Daily Situation Report No. 158 (18 Nov 2022), as reported in OCHA Pakistan 2022 Monsoon Floods Situation Report No. 11"
+injured,e2,12860,12867,"as above","as above"
+roads_km,e3,12735,13115,"as above","as above"
+bridges,e4,375,439,"as above","as above"
+houses,e5,1943978,2288481,"as above","as above"
+livestock,e6,943909,1164270,"as above","as above"
+affected_population,e7,33046329,,"as above","reported as 'about 33 million' throughout; no revised count published"
