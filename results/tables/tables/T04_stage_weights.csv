@@ -1,0 +1,10 @@
+stage,attribute,label,global_weight,stage_weight
+T1,e1,Total deaths,0.25,0.625
+T1,e2,Total injured,0.15,0.375
+T2,e2,Total injured,0.15,0.3333
+T2,e3,Roads damaged (km),0.1,0.2222
+T2,e4,Bridges damaged,0.05,0.1111
+T2,e5,Houses damaged,0.15,0.3333
+T3,e5,Houses damaged,0.15,0.3333
+T3,e6,Livestock lost,0.1,0.2222
+T3,e7,Affected population,0.2,0.4444

@@ -1,0 +1,4 @@
+stage,ranking_18Sep,ranking_20Sep,identical,spearman,max_abs_change_in_SSI
+T1,Sindh > Punjab > KP > Balochistan > AJ&K > GB > ICT,Sindh > Punjab > KP > Balochistan > AJ&K > GB > ICT,True,1.0,0.0093
+T2,Sindh > Punjab > KP > Balochistan > GB > AJ&K > ICT,Sindh > Punjab > KP > Balochistan > GB > AJ&K > ICT,True,1.0,0.0009
+T3,Sindh > Balochistan > Punjab > KP > AJ&K > GB > ICT,Sindh > Balochistan > Punjab > KP > AJ&K > GB > ICT,True,1.0,0.0242

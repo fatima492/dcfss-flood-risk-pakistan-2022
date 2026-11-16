@@ -1,0 +1,33 @@
+stage,method,spearman_vs_DCFSS_WHD,kendall_vs_DCFSS_WHD,n_rank_differences,order
+T1,DCFSS-WHD,1.0,1.0,0,Sindh > Punjab > KP > Balochistan > AJ&K > GB > ICT
+T1,DCFSS-WED,1.0,1.0,0,Sindh > Punjab > KP > Balochistan > AJ&K > GB > ICT
+T1,DCFSS-WHHD,1.0,1.0,0,Sindh > Punjab > KP > Balochistan > AJ&K > GB > ICT
+T1,SAW,1.0,1.0,0,Sindh > Punjab > KP > Balochistan > AJ&K > GB > ICT
+T1,TOPSIS,0.892857,0.809524,3,Sindh > KP > Balochistan > Punjab > AJ&K > GB > ICT
+T1,TOPSIS (vector norm.),0.964286,0.904762,2,Sindh > KP > Punjab > Balochistan > AJ&K > GB > ICT
+T1,VIKOR,0.892857,0.809524,3,Sindh > KP > Balochistan > Punjab > AJ&K > GB > ICT
+T1,Entropy-TOPSIS,1.0,1.0,0,Sindh > Punjab > KP > Balochistan > AJ&K > GB > ICT
+T2,DCFSS-WHD,1.0,1.0,0,Sindh > Punjab > KP > Balochistan > GB > AJ&K > ICT
+T2,DCFSS-WED,0.964286,0.904762,2,Sindh > Punjab > KP > GB > Balochistan > AJ&K > ICT
+T2,DCFSS-WHHD,1.0,1.0,0,Sindh > Punjab > KP > Balochistan > GB > AJ&K > ICT
+T2,SAW,1.0,1.0,0,Sindh > Punjab > KP > Balochistan > GB > AJ&K > ICT
+T2,TOPSIS,1.0,1.0,0,Sindh > Punjab > KP > Balochistan > GB > AJ&K > ICT
+T2,TOPSIS (vector norm.),1.0,1.0,0,Sindh > Punjab > KP > Balochistan > GB > AJ&K > ICT
+T2,VIKOR,1.0,1.0,0,Sindh > Punjab > KP > Balochistan > GB > AJ&K > ICT
+T2,Entropy-TOPSIS,0.964286,0.904762,2,Sindh > Punjab > KP > GB > Balochistan > AJ&K > ICT
+T3,DCFSS-WHD,1.0,1.0,0,Sindh > Balochistan > Punjab > KP > AJ&K > GB > ICT
+T3,DCFSS-WED,1.0,1.0,0,Sindh > Balochistan > Punjab > KP > AJ&K > GB > ICT
+T3,DCFSS-WHHD,1.0,1.0,0,Sindh > Balochistan > Punjab > KP > AJ&K > GB > ICT
+T3,SAW,1.0,1.0,0,Sindh > Balochistan > Punjab > KP > AJ&K > GB > ICT
+T3,TOPSIS,1.0,1.0,0,Sindh > Balochistan > Punjab > KP > AJ&K > GB > ICT
+T3,TOPSIS (vector norm.),1.0,1.0,0,Sindh > Balochistan > Punjab > KP > AJ&K > GB > ICT
+T3,VIKOR,1.0,1.0,0,Sindh > Balochistan > Punjab > KP > AJ&K > GB > ICT
+T3,Entropy-TOPSIS,1.0,1.0,0,Sindh > Balochistan > Punjab > KP > AJ&K > GB > ICT
+ALL,DCFSS-WHD,1.0,1.0,0,Sindh > Balochistan > Punjab > KP > GB > AJ&K > ICT
+ALL,DCFSS-WED,1.0,1.0,0,Sindh > Balochistan > Punjab > KP > GB > AJ&K > ICT
+ALL,DCFSS-WHHD,1.0,1.0,0,Sindh > Balochistan > Punjab > KP > GB > AJ&K > ICT
+ALL,SAW,1.0,1.0,0,Sindh > Balochistan > Punjab > KP > GB > AJ&K > ICT
+ALL,TOPSIS,0.964286,0.904762,2,Sindh > Balochistan > KP > Punjab > GB > AJ&K > ICT
+ALL,TOPSIS (vector norm.),1.0,1.0,0,Sindh > Balochistan > Punjab > KP > GB > AJ&K > ICT
+ALL,VIKOR,0.928571,0.809524,4,Sindh > Balochistan > KP > Punjab > AJ&K > GB > ICT
+ALL,Entropy-TOPSIS,1.0,1.0,0,Sindh > Balochistan > Punjab > KP > GB > AJ&K > ICT

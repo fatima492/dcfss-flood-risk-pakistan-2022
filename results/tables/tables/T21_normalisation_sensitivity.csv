@@ -1,0 +1,13 @@
+normalisation,stage,AJ&K,Balochistan,GB,ICT,KP,Punjab,Sindh,spearman,kendall,n_changed,top1_same,top3_same
+minmax,T1,5,4,6,7,3,2,1,1.0,1.0,0,True,True
+minmax,T2,6,4,5,7,3,2,1,1.0,1.0,0,True,True
+minmax,T3,5,2,6,7,4,3,1,1.0,1.0,0,True,True
+max,T1,5,4,6,7,3,2,1,1.0,1.0,0,True,True
+max,T2,6,4,5,7,3,2,1,1.0,1.0,0,True,True
+max,T3,5,2,6,7,4,3,1,1.0,1.0,0,True,True
+sum,T1,5,4,6,7,3,2,1,1.0,1.0,0,True,True
+sum,T2,6,4,5,7,3,2,1,1.0,1.0,0,True,True
+sum,T3,5,2,6,7,4,3,1,1.0,1.0,0,True,True
+vector,T1,5,4,6,7,3,2,1,1.0,1.0,0,True,True
+vector,T2,6,4,5,7,3,2,1,1.0,1.0,0,True,True
+vector,T3,5,2,6,7,4,3,1,1.0,1.0,0,True,True
